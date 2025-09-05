@@ -1,0 +1,10 @@
+# Đảm bảo GitHub Pages trả về đúng MIME type cho file WebGL build
+
+# JavaScript loader và framework
+*.js   text/javascript
+
+# WebAssembly (nếu không set thì Pages hay trả sai thành text/plain)
+*.wasm application/wasm
+
+# Data file của Unity (binary)
+*.data binary
